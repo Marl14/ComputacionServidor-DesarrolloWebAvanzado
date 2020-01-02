@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Formulario de Registro</title>
+    <!--- Estilos para centrar el contedor del formulario-->
     <style>
     .container{
         margin:0 auto;
@@ -29,7 +30,7 @@
             <label class="inter" for="nombre">Nombre:</label>
             <input class="inter" type="text" name="nombre" id="nombre"  required="required"><br>
             <label class="inter" for="correo">Correo:</label>
-            <input class="inter" type="email" name="email" id="email" required="required"><br>
+            <input class="inter" type="email" name="correo" id="correo" required="required"><br>
             <label class="inter" for="user">Nombre de Usuario:</label>
             <input class="inter" type="text" name="user" id="user" placeholder="Mayús,Minús y Núm; de 5-15" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{5,15}$" title="Se requiere una Mayúscula, una Minúscula y un Número; desde 5 hasta 15 caracteres." required="required"/><br>
             <label class="inter" for="pass">Contraseña</label>
