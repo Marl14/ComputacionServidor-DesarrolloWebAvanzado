@@ -12,11 +12,13 @@
     <style>
     .container{
         margin:0 auto;
-        width:200px;
-        height:200px;
+        width:500px;
+        height:300px;
         display: block;
-        border:1px;
-
+        transform: translate(0%,50%);
+    }
+    .izquierda{
+        float:right;
     }
     </style>
 </head>
@@ -32,7 +34,7 @@
             <input type="submit" value="Entrar" name="entrar">
             <br>
             <br>
-            <input type="submit" value="Registrar" name="registrar">
+            <input type="submit" class="izquierda" value="Registrar" name="registrar">
         </form>
     </div>
   
